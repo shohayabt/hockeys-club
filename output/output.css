@@ -1048,6 +1048,11 @@ html {
   z-index: 1;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1085,10 +1090,6 @@ html {
   max-width: 1280px;
 }
 
-.border-collapse {
-  border-collapse: collapse;
-}
-
 .items-center {
   align-items: center;
 }
@@ -1101,9 +1102,26 @@ html {
   justify-content: space-between;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .border-y {
   border-top-width: 1px;
   border-bottom-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.bg-blue {
+  background-color: #629CF31A;
+}
+
+.bg-main {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 66 64 / var(--tw-bg-opacity));
 }
 
 .px-10 {
@@ -1138,13 +1156,36 @@ html {
   font-family: Manrope, sans-serif;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.text-main {
+  --tw-text-opacity: 1;
+  color: rgb(255 66 64 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:text-main:hover {
