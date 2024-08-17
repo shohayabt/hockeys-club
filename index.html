@@ -18,8 +18,8 @@
     />
   </head>
 
-  <body class="font-manrope max-w-screen-xl mx-auto">
-    <header class="px-10">
+  <body class="font-manrope max-w-screen-lg mx-auto">
+    <header class="px-5 lg:px-10">
       <nav class="w-full py-5">
         <div class="flex justify-between items-center">
           <div class="flex items-center">
@@ -42,7 +42,7 @@
               </div>
               <ul
                 tabindex="0"
-                class="dropdown-content z-[1] top-cmd left-0 right-0 px-10 rounded-md"
+                class="dropdown-content z-[1] top-cmd left-0 right-0 px-5 rounded-md lg:px-10 "
               >
                 <li class="w-full text-left border-t bg-white">
                   <a
@@ -82,7 +82,7 @@
               </ul>
             </div>
             <a
-              class="font-extrabold inline-block ml-5 text-3xl lg:text-4xl lg::ml-0"
+              class="font-extrabold inline-block ml-2 text-3xl lg:text-4xl lg::ml-0"
               href="./index.html"
               >Hockey<span class="text-main">’</span>s</a
             >
@@ -128,18 +128,19 @@
           </div>
           <div>
             <a
-              class="font-bold text-white text-base bg-main rounded-lg px-5 py-3"
+              class="font-bold text-white text-base bg-main rounded-lg px-3 py-2 lg:px-5 lg:py-3"
               href="./index.html"
               >Get Ticket</a
             >
           </div>
         </div>
       </nav>
-      <div>
+      <!-- HERO SECTION START FROM HERE -->
+      <section>
         <div class="carousel w-full rounded-lg overflow-hidden">
           <div
             id="slide1"
-            class="carousel-item relative w-full h-[200px] lg:h-[550px]"
+            class="carousel-item relative w-full h-[200px]  sm:h-[350px] md:[400px] lg:[650px]"
           >
             <img src="./images/one.png" class="w-full" />
             <div
@@ -159,26 +160,26 @@
           </div>
           <div
             id="slide2"
-            class="carousel-item relative w-full h-[200px] lg:h-[550px]"
+            class="carousel-item relative w-full h-[200px]  sm:h-[350px] md:[400px] lg:[650px]"
           >
             <img src="./images/two.jpg" class="w-full" />
             <div
               class="absolute bottom-2 left-10 -translate-y-1/2 w-[60px] flex justify-between"
             >
               <a
-                href="#slide4"
+                href="#slide1"
                 class="w-7 h-7 bg-black justify-center flex items-center rounded-full"
                 >❮</a
               >
               <a
-                href="#slide2"
+                href="#slide3"
                 class="w-7 h-7 bg-black justify-center flex items-center rounded-full"
                 >❯</a
               >
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </header>
   </body>
 </html>
