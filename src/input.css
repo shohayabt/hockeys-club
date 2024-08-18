@@ -19,7 +19,7 @@
 }
 /* PROGRAM SECTION */
 .c-program-card {
-    @apply w-full h-[244px] overflow-hidden rounded-xl p-5 bg-cover bg-center flex justify-center items-baseline flex-col relative;
+    @apply w-full h-[244px] overflow-hidden rounded-xl p-5 bg-cover bg-center flex justify-center items-baseline flex-col relative text-white;
     z-index: 1;
 }
 
@@ -43,6 +43,7 @@
 }
 
 .c-card-three {
+    @apply md:col-span-2;
     background: url('../images/4.png');
     background-repeat: no-repeat;
     background-size: cover;
