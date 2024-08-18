@@ -1,12 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.info{
-    @apply border-y-2 border-grey border-dashed py-5;
+
+.c-btn {
+    @apply inline-block font-bold text-white text-base bg-main rounded-lg px-3 py-2 lg:px-5 lg:py-3;
 }
-.info-tile{
+/* TITLE SECTIN FOR REUSE */
+.info {
+    @apply border-y-2 border-grey dark:border-cc border-dashed py-5;
+}
+
+.info-tile {
     @apply font-extrabold text-lg text-center my-2;
 }
-.info-text{
+
+.info-text {
     @apply font-medium text-sm text-center my-2;
+}
+/* PROGRAM SECTION */
+.c-program-card {
+    @apply w-full h-[244px] overflow-hidden rounded-xl p-5 bg-cover bg-center flex justify-center items-baseline flex-col relative;
+    z-index: 1;
+}
+
+.c-program-card::after {
+    content: '';
+    @apply absolute top-0 left-0 right-0 bottom-0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.c-card-one {
+    background: url('../images/2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c-card-two {
+    background: url('../images/3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c-card-three {
+    background: url('../images/4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
