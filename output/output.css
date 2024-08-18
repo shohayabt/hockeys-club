@@ -1400,6 +1400,10 @@ html {
   color: rgb(15 15 15 / var(--tw-text-opacity));
 }
 
+.text-blue {
+  color: rgba(76, 141, 241, 1);
+}
+
 .text-green {
   color: rgba(73, 210, 147, 1);
 }
@@ -1416,10 +1420,6 @@ html {
 
 .text-yellow {
   color: rgba(255, 181, 70, 1);
-}
-
-.text-blue {
-  color: rgba(76, 141, 241, 1);
 }
 
 .info {
@@ -1470,21 +1470,12 @@ html {
     display: grid;
   }
 
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:gap-3 {
     gap: 0.75rem;
-  }
-
-  .md\:gap-x-3 {
-    -moz-column-gap: 0.75rem;
-         column-gap: 0.75rem;
   }
 }
 
@@ -1505,10 +1496,6 @@ html {
     display: flex;
   }
 
-  .lg\:grid {
-    display: grid;
-  }
-
   .lg\:hidden {
     display: none;
   }
@@ -1524,10 +1511,6 @@ html {
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .lg\:gap-3 {
-    gap: 0.75rem;
   }
 
   .lg\:gap-x-3 {
