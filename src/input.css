@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.info{
+    @apply border-y-2 border-grey border-dashed py-5;
+}
+.info-tile{
+    @apply font-extrabold text-lg text-center my-2;
+}
+.info-text{
+    @apply font-medium text-sm text-center my-2;
+}
