@@ -50,5 +50,5 @@
 }
 /* PRODUCT SECTION */
 .c-product-card{
-    @apply p-10 border border-grey rounded-2xl sm:grid sm:grid-cols-3 sm:gap-10;
+    @apply p-5 border border-grey rounded-2xl my-4 sm:grid sm:grid-cols-3 sm:gap-x-10;
 }

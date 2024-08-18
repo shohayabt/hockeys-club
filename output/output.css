@@ -1575,17 +1575,20 @@ html {
 /* PRODUCT SECTION */
 
 .c-product-card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-radius: 1rem;
   border-width: 1px;
   border-color: rgba(19, 19, 24, 0.2);
-  padding: 2.5rem;
+  padding: 1.25rem;
 }
 
 @media (min-width: 640px) {
   .c-product-card {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 2.5rem;
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
   }
 }
 
@@ -1595,6 +1598,10 @@ html {
 }
 
 @media (min-width: 640px) {
+  .sm\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .sm\:h-\[350px\] {
     height: 350px;
   }
@@ -1608,6 +1615,10 @@ html {
 @media (min-width: 768px) {
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:grid {
