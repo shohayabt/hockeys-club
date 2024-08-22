@@ -2,53 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-.c-btn {
-    @apply inline-block font-bold text-white text-base bg-main rounded-lg px-3 py-2 lg:px-5 lg:py-3;
-}
-/* TITLE SECTIN FOR REUSE */
-.info {
-    @apply border-y-2 border-grey dark:border-cc border-dashed py-5;
-}
+@layer components {
+    .c-btn {
+        @apply inline-block font-bold text-white text-base bg-main rounded-lg px-3 py-2 lg:px-5 lg:py-3;
+    }
 
-.info-tile {
-    @apply font-extrabold text-lg text-center my-2;
-}
+    /* TITLE SECTIN FOR REUSE */
+    .info {
+        @apply border-y-2 border-grey dark:border-cc border-dashed py-5;
+    }
 
-.info-text {
-    @apply font-medium text-sm text-center my-2;
-}
-/* PROGRAM SECTION */
-.c-program-card {
-    @apply w-full h-[244px] overflow-hidden rounded-xl p-5 bg-cover bg-center flex justify-center items-baseline flex-col relative text-white;
-    z-index: 1;
-}
+    .info-tile {
+        @apply font-extrabold text-lg text-center my-2;
+    }
 
-.c-program-card::after {
-    content: '';
-    @apply absolute top-0 left-0 right-0 bottom-0;
-    background: rgba(0, 0, 0, 0.2);
-    z-index: -1;
-}
+    .info-text {
+        @apply font-medium text-sm text-center my-2;
+    }
 
-.c-card-one {
-    background: url('../images/2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    /* PROGRAM SECTION */
+    .c-program-card {
+        @apply w-full h-[244px] overflow-hidden rounded-xl p-5 bg-cover bg-center flex justify-center items-baseline flex-col relative text-white;
+        z-index: 1;
+    }
 
-.c-card-two {
-    background: url('../images/3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    .c-program-card::after {
+        content: '';
+        @apply absolute top-0 left-0 right-0 bottom-0;
+        background: rgba(0, 0, 0, 0.2);
+        z-index: -1;
+    }
 
-.c-card-three {
-    @apply md:col-span-2;
-    background: url('../images/4.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/* PRODUCT SECTION */
-.c-product-card{
-    @apply p-5 border border-grey rounded-2xl my-4 sm:grid sm:grid-cols-3 sm:gap-x-10;
+    .c-card-one {
+        background: url('../images/2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .c-card-two {
+        background: url('../images/3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .c-card-three {
+        @apply md:col-span-2;
+        background: url('../images/4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* PRODUCT SECTION */
+    .c-product-card {
+        @apply p-5 border border-grey rounded-2xl my-4 sm:grid sm:grid-cols-3 sm:gap-x-10;
+    }
+
+    /* GET IN TOUCH */
+    .c-input-group {
+        @apply px-0 sm:grid sm:grid-cols-2 sm:gap-x-2;
+    }
+
+    .input-label {
+        @apply text-lg font-bold uppercase;
+    }
+    input , textarea{
+        @apply block w-full p-2 mt-1 outline-none border border-grey rounded-xl;
+    }
 }
