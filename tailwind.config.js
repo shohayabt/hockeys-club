@@ -11,6 +11,9 @@ module.exports = {
       "green":"rgba(73, 210, 147, 1)",
       "yellow":"rgba(255, 181, 70, 1)",
       "cc":"#EEEDEB",
+      "group-one":"rgba(188, 237, 109, 0.1)",
+      "group-two":"rgba(253, 221, 95, 0.1)",
+      "group-three":"rgba(98, 156, 243, 0.1)"
     },
     extend: {
       fontFamily: {
