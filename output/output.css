@@ -1841,11 +1841,6 @@ input , textarea {
   margin-bottom: 1.25rem;
 }
 
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -2157,6 +2152,10 @@ input , textarea {
   color: rgb(255 66 64 / var(--tw-text-opacity));
 }
 
+.text-text-off {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2164,10 +2163,6 @@ input , textarea {
 
 .text-yellow {
   color: rgba(255, 181, 70, 1);
-}
-
-.text-text-off {
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .hover\:text-main:hover {
@@ -2254,6 +2249,10 @@ input , textarea {
 
   .lg\:top-2\/3 {
     top: 66.666667%;
+  }
+
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
   }
 
   .lg\:flex {
