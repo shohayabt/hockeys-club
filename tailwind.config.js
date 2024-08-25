@@ -13,7 +13,8 @@ module.exports = {
       "cc":"#EEEDEB",
       "group-one":"rgba(188, 237, 109, 0.1)",
       "group-two":"rgba(253, 221, 95, 0.1)",
-      "group-three":"rgba(98, 156, 243, 0.1)"
+      "group-three":"rgba(98, 156, 243, 0.1)",
+      "text-off":"rgba(255, 255, 255, 0.6)"
     },
     extend: {
       fontFamily: {
